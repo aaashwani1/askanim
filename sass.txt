@@ -1,0 +1,13 @@
+==================== Sass ===============
+http://sass-lang.com/install   Ruby 2.3.3 (x64)       Ruby Installer
+http://thesassway.com/beginner/getting-started-with-sass-and-compass              Command
+
+--------------
+gem install sass
+gem install compass
+C:\Users\Manish> gem install css_parser 
+C:\Users\Manish> compass create Sass  
+cd Sass
+C:\Users\Manish\Sass>compass compile 
+
+C:\Users\Manish\Sass> compass watch  

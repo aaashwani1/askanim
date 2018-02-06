@@ -1,0 +1,1285 @@
+$background-color: #5e306f;
+$yellow-bor: #ffc13c;
+
+.menubar.navbar-default{
+	margin: 0 auto;
+	width: auto;
+	border: 0;
+	background: transparent;
+	border-radius: 0;
+	position: absolute;
+    width: 100%;
+    top: 20px;
+    z-index: 9;
+ 		@media (max-width: 767px){
+ 			position: absolute;
+    		top: 0;
+    		padding-top: 20px;
+    		background: $background-color;
+    	}
+	ul{
+		margin: 0 auto;
+	    float: none;
+	    width: auto;
+	    text-align: center;
+		li{
+			 font-family: 'Nexa-bold';
+			 font-size: 16px;
+			 display: inline-block;
+			 float: none;
+			 @media (max-width: 767px){
+				display: block;
+				text-align: left;
+			}
+			 a{
+			 	color: #fff;
+			 }
+			 a:hover{
+			 	color: $yellow-bor;
+			 }
+		}
+		.bor{
+		 	background-image: url(../images/devider.png);
+		 	background-position: right center;
+		 	background-repeat: no-repeat;
+		 	padding-right: 3px;
+
+		 	@media (max-width: 767px){
+				background-image: none;
+			}
+		 }
+	}
+	.logo {
+		@media (max-width: 767px){
+			margin-bottom: 15px;
+
+			img{
+				max-width: 65px;
+			}
+		}
+	}
+	.pos-relat{
+		position: 	relative;
+	}
+	.search{
+		position: absolute;
+		right: 15px;
+		top: 44px;
+
+		@media (max-width: 991px){
+			top:-5px;
+		}
+		@media (max-width: 991px){
+			top: 11px;
+			right: 85px;
+		}
+		input{
+			color: #848484;
+			height: 26px;
+			width: 120px;
+			border-radius: 	40px;
+			border: none;
+			 font-family: 'Nexa';
+			 font-size: 13px;
+			 padding: 	0 7px;
+			 background-image: url(../images/search.png);
+		    background-repeat: no-repeat;
+		    padding-left: 20px;
+		    background-position: left 5px center;
+		    background-size: 13px;
+		}
+		::placeholder { 
+		    color: #848484;
+		}
+
+		:-ms-input-placeholder { 
+		    color: #848484;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #848484;
+		}
+	}
+}
+.container{
+	max-width: 992px;
+}
+.hero-slide{
+	.carousel-caption{
+		width: 100%;
+		left: 0;
+		top: 0;
+		text-shadow: none;
+	}
+
+	.item{
+		img{
+			@media (max-width: 991px){
+			object-fit: cover;
+		    height: 500px;
+		    width: auto;
+			}
+			@media (max-width: 767px){
+			object-fit: cover;
+		    height: 434px;
+		    width: auto;
+			}
+		}
+	}
+	.carousel-control{
+		width: 60px;
+		height: 30px;
+		top: 50%;
+		box-shadow: none;
+		text-transform: none;
+		background-image: none;
+	}
+	.carousel-indicators {
+		@media screen and (min-width: 768px){
+		    bottom: 35px;
+		}
+	}
+	.banner{
+		.banner-image{
+		padding-top: 140px;
+
+		@media (max-width: 991px){
+			padding-top: 90px;	
+			}
+
+
+		@media (max-width: 767px){
+			padding-top: 80px;	
+			}
+			h1{
+				font-size: 35px;
+				font-family: 'Nexa-light';
+				text-align: right;
+				color: #fff;
+				margin:0;
+				line-height: 1.2em;
+
+				@media (max-width: 991px){
+					font-size: 25px;
+				}
+				@media (max-width: 767px){
+					font-size: 20px;
+					
+				}
+			}
+			.bor-top{	
+				margin: 15px 0;
+				border-top: 4px solid $yellow-bor;
+					width: 260px;
+					float: right;
+
+				@media (max-width: 767px){
+					width: 	180px;
+				}
+			}
+			h2{
+				color: $yellow-bor;
+				font-family: 'Asap-italic';
+				text-align: right;
+				margin:0;
+				font-size: 20px;
+				line-height: 1.5em;
+				@media (max-width: 767px){
+					font-size: 	14px;
+				}
+			}
+			a{
+				background-color: #fff;
+				display: inline-block;
+				float: right;
+				padding: 4px 22px;
+				font-size: 21px;
+				color: $background-color;
+				border-radius: 50px;
+				margin-top: 20px;
+				font-family: 'Nexa-light';
+			}
+			a:hover{
+				text-decoration: none;
+				background-color: $yellow-bor;
+				color: #fff;
+			}
+		}
+	}
+}
+.height-40{
+		height: 60px;
+		background-color: $background-color;
+		width: 	100%;
+		 @media(max-width: 767px){
+	    	height: 150px;
+	    }
+	}
+.donate_section{
+	
+	background-color: $yellow-bor;
+	padding: 16px 0 30px;
+	text-align: center;
+	color: $background-color;
+	position: relative;
+
+	img{
+		max-width: 	100%;
+		@media (max-width: 991px){
+			max-width: 	70%;
+			margin: 0 auto;
+		}
+	}
+
+	h3{
+		margin: 0 0 10px 0;
+		font-size: 27px;
+		font-family: 'Nexa-heavy';
+
+		i{
+			font-size: 20px;
+		}
+	}
+	h4{
+		margin: 10px 0 20px 0;
+		font-size: 17px;
+		font-family: 'Nexa';
+
+		i{
+			font-size: 14px;
+		}
+		span{
+			font-family: 'Nexa-heavy';
+		}
+	}
+	a{
+		font-size: 19px;
+		font-family: 'Nexa';
+		color: #fff;
+		border-radius: 50px;
+		padding: 10px 32px;
+		background-color: $background-color;
+
+		span{
+			font-family: 'Nexa-heavy';
+		}
+
+	}
+	a:hover{
+			text-decoration: none;
+			color: $yellow-bor;
+		}
+	.campaign{
+		background: url(../images/radius-bg.png) no-repeat center;
+		color: $background-color;
+		position: absolute;
+		top: -39px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		text-align: center;
+		height: 52px;
+		padding-top: 10px;
+		font-family: 'Nexa-light';
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+.gallery{
+	
+	font-family: 'Nexa';
+	padding: 10px 0 70px;
+	text-align: center;
+	 font-weight: normal;
+	h3{
+		font-size: 27px;
+		color: $background-color;
+		text-transform: uppercase;
+	}
+	h4{
+		font-size: 10px;
+		color: $background-color;
+		margin-bottom: 50px;
+
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			list-style: none;
+			width: 25%;
+			float: left;
+			padding: 5px;
+			@media (max-width: 767px){
+				width: 33.33%
+			}
+			@media (max-width: 480px){
+				width: 50%
+			}
+			img{
+				max-width: 100%;
+				display: block;
+			}
+		}
+	}
+	.visit{
+		color: $background-color;
+		display: inline-block;
+		margin: 20px auto 0;
+		font-size: 17px;
+		i{
+			font-size: 12px;
+		}
+	}
+}
+.angila_section{
+	background: url(../images/background.jpg) no-repeat center;
+	background-size: cover;
+	padding: 40px 0 80px;
+	text-align: center;
+
+	h3{
+		font-family: 'Asap-bold-italic';
+		font-size: 53px;
+		color: #fff;
+
+		@media (max-width: 991px){
+			font-size: 35px;
+		}
+		@media (max-width: 767px){
+			font-size: 22px;
+		}
+	}
+	p{
+		font-family: 'Asap-italic';
+		font-size: 23px;
+		color: $yellow-bor;
+		max-width: 686px;
+		margin: 0 auto;
+
+		@media (max-width: 991px){
+			font-size: 17px;
+		}
+		@media (max-width: 767px){
+			font-size: 14px;
+			padding	: 0 20px;
+		}
+	}
+	img{
+		margin: 20px 0 40px;
+		display: inline-block;
+	}
+	a{
+		font-size: 19px;
+		font-family: 'Nexa-heavy';
+		color: $background-color;
+		border-radius: 50px;
+		padding: 7px 22px;
+		background-color: $yellow-bor;
+		display: inline-block;
+		margin-top: 50px;
+		text-transform: uppercase;
+		span{
+			font-family: 'Nexa';
+		}	
+	}
+	a:hover{
+			text-decoration: none;
+			color: #fff;
+		}	
+}
+.family{
+	position: 	relative;	
+	.white-space{
+		height: 160px;
+		background: #fff;
+	}
+	.family_content{
+		background: $background-color;
+		height: 160px;
+
+		@media (max-width: 991px){
+			height: auto;
+			padding-top: 160px;
+		}
+
+		.family_text{
+			padding: 8px 0 0 30px;
+
+			@media (max-width: 991px){
+				padding:22px 0 0 30px;
+			}
+
+			@media (max-width: 767px){
+				padding:10px 0 0 30px;
+			}
+
+			h2{
+				color: $yellow-bor;
+				font-family: 'Asap-bold';
+				font-size: 	50px;
+
+				@media (max-width: 1199px){
+					font-size: 46px;
+				}
+				@media (max-width: 991px){
+					font-size: 36px;
+				}
+
+				@media (max-width: 767px){
+					font-size: 20px;
+					margin-top: 10px;
+				}
+
+			}
+			p{
+				font-size: 24px;
+				color: #fff;
+				font-family: 'Asap';
+
+				@media (max-width: 991px){
+					font-size: 20px;
+				}
+				@media (max-width: 767px){
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.family_img{
+		position: absolute;
+		bottom: -159px;
+		
+		@media (max-width: 991px){
+			bottom: 0;
+			left: 0;
+    		right: 0;
+    		text-align: center;
+		}
+		img{
+			max-width: 100%;
+		}
+	}
+}
+.annual_budget{
+	padding: 	10px 0;
+
+	.img_annual_budget{
+		float: left;
+		width: 33%;
+
+		@media (max-width: 767px){
+			width: 100%;
+			text-align: center;
+		}
+
+		img{
+			max-width: 100%;
+			display: inline-block;
+		}
+	}
+	.text_annual_budget{
+		float: left;
+		width: 41%;
+
+		@media (max-width: 767px){
+			width: 100%;
+			text-align: center;
+		}
+		p{
+			font-size: 24px;
+			color: $background-color;
+			font-family: 'Asap';
+
+			@media (max-width: 991px){
+					font-size: 17px;
+			}
+			span{
+				font-family: 'Nexa';
+				font-size: 	55px;
+				display: block;
+				margin-top: 10px;
+
+				@media (max-width: 991px){
+					font-size: 35px;
+				}
+			}
+		}
+	}
+	.button_annual_budget{
+		float: left;
+		width: 25%;
+		@media (max-width: 767px){
+			width: 100%;
+			text-align: center;
+		}
+
+		a{
+		font-size: 19px;
+		font-family: 'Nexa-heavy';
+		color: $background-color;
+		border-radius: 50px;
+		padding: 7px 32px;
+		background-color: $yellow-bor;
+		display: inline-block;
+		margin-top: 80px;
+		box-shadow: 0 2px 1px rgba(0,0,0,.2);
+			span{
+				font-family: 'Nexa';
+			}
+			@media (max-width: 991px){
+				padding: 7px 20px;
+			}
+			@media (max-width: 767px){
+				margin-bottom: 30px;
+				margin-top: 20px;
+			}
+		}
+		:hover{
+			text-decoration: none;
+			color: $yellow-bor;
+			background-color: $background-color;
+		}	
+	}
+}
+footer{
+	background-color: $background-color;
+	padding: 40px 0 30px;
+	display: block;
+	color: #fff;
+    font-family: 'Nexa';
+
+    address, p{
+    	margin: 0;
+    	padding-left: 80px;
+    	line-height: 1.7em;
+    	font-size: 	16px;
+    }
+    address{
+    	@media (max-width: 767px){
+    		margin-bottom: 20px;
+    	}
+    }
+    .mobile-logo{
+    	padding-left: 80px;
+    	margin-bottom: 10px
+    }
+	a{
+		color: #fff;
+	}
+	.footer_logo{
+		float: 	right;
+		margin-right: 40px;
+	}
+}
+
+/*---------askanim-page--------------*/
+.navbar-default.inner-pages{
+	position: relative;
+	background-color: $background-color;
+	top: 0;
+
+	@media (max-width: 767px){
+		position: absolute;
+		z-index: 999;
+	}
+}
+.about-banner{
+	background: url(../images/about-banner.jpg) no-repeat center;
+	background-size: cover;
+	padding: 70px 0 105px;
+	text-align: center;
+	@media (max-width: 767px){
+		margin-top: 70px;
+	}
+	h1{
+		font-size: 36px;
+		color: $background-color;
+		font-family: 'Nexa-light';
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+.about-section{
+		padding: 20px 0;
+
+	.search{
+		float: 	right;
+		 @media(max-width: 767px){
+		 	float: none;
+		 }
+
+		.form-group{
+			margin: 0;
+		}
+		input{
+			color: #848484;
+			height: 37px;
+			width: 310px;
+			border-radius: 	40px;
+			background-color: #ebebeb;
+			border: none;
+			 font-family: 'Nexa';
+			 font-size: 18px;
+			 padding: 	0 7px;
+			 background-image: url(../images/search-big.png);
+		    background-repeat: no-repeat;
+		    padding-left: 40px;
+		    background-position: left 10px center;
+		    background-size: 22px;
+		    box-shadow: none;
+
+		    @media(max-width: 767px){
+	  		 	width: 	100%;
+	  		 	margin-bottom: 20px;
+  		 	}
+		}
+		::placeholder { 
+		    color: #848484;
+		}
+
+		:-ms-input-placeholder { 
+		    color: #848484;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #848484;
+		}
+	}
+	select{
+		color: #848484;
+		height: 37px;
+		width: 140px;
+		border-radius: 	40px;
+		background-color: #ebebeb;
+		border: none;
+		 font-family: 'Nexa';
+		 font-size: 18px;
+		 padding: 0 10px; 
+		 -webkit-appearance: none;
+  		 -moz-appearance: none;
+  		 appearance: none;
+
+  		 @media(max-width: 767px){
+  		 	width: 	100%;
+  		 	margin-bottom: 20px;
+  		 }
+	}
+	select:focus{
+		outline: none;
+	}
+	.user_profile{
+		margin: 65px 0;
+		float: 	left;
+		width: 	100%;
+		text-align: center;
+		.user-img{
+			width: 134px;
+		    height: 134px;
+		    border-radius: 100%;
+		    margin: 0px auto;
+		    overflow: hidden;
+
+			img{
+				max-width: 	100%;
+				display: block;
+			}
+		}
+		.uder-details{
+			max-width: 200px;
+    		margin: 0 auto 35px;
+			h3{
+				font-size: 14px;
+		        font-family: 'Nexa-heavy';
+		        color: 	$background-color;
+		        margin: 15px 0 5px; 
+
+			}
+			h4{
+				display: inline-block;
+				width: 119px;
+				height: 20px;
+				border-radius: 40px;
+				background-color: $yellow-bor;
+				color: 	$background-color;
+				font-family: 'Nexa-heavy';
+				font-size: 	18px;
+				margin: 2px 0;
+			}
+			img{
+				max-width: 100%;
+			}
+			p{
+				font-size: 12px;
+				color: 	$background-color;
+				font-family: 'Nexa';
+				span{
+					font-family: 'Nexa-heavy';
+				}
+			}
+		}
+	}
+	.row-1{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.pad-about{
+		padding: 0 10px;
+	}
+}
+
+/*--------------------user-page-------------------------*/
+.user-section{
+	margin: 70px 0;
+	display: block;
+		@media(max-width: 767px){
+	    	margin: 30px auto;
+	    }
+	.uder-profile-pic{
+		width: 360px;
+	    height: 360px;
+	    border-radius: 100%;
+	    overflow: hidden;
+
+	    @media(max-width: 767px){
+	    	margin: 0 auto;
+		    width: 240px;
+		    height: 240px;
+	    }
+
+		img{
+			max-width: 	100%;
+			display: block;
+		}
+	}
+	.user-content{
+		max-width: 400px;
+		margin-top: 60px;
+		 @media(max-width: 767px){
+	    	margin: 30px auto;
+	    }
+		p{
+			font-size: 14px;
+			color: 	$background-color;
+			font-family: 'Nexa';
+			text-align: justify;
+		}
+		p.text-right{
+			text-align: right;	
+			font-family: 'Nexa-heavy';
+		}
+	}
+	.uder-details{
+		max-width: 350px;
+		margin: 0 auto 35px;
+		text-align: center;
+		h3{
+			font-size: 40px;
+	        font-family: 'Nexa-heavy';
+	        color: 	$background-color;
+	        margin: 15px 0 60px;
+
+	        @media (max-width: 680px){
+	        	font-size: 	30px;
+	        	margin:  0 auto	20px;
+	        } 
+
+		}
+		h4{
+			display: inline-block;
+			width: 260px;
+			height: 40px;
+			border-radius: 40px;
+			background-color: $yellow-bor;
+			color: 	$background-color;
+			font-family: 'Nexa-heavy';
+			font-size: 	40px;
+			margin: 15px 0;
+
+			@media (max-width: 680px){
+	        	font-size: 	28px;
+	        	margin:  10px auto;
+	        	width: 210px;
+				height: 30px;
+	        } 
+		}
+		img{
+			max-width: 100%;
+		}
+		p{
+			font-size: 25px;
+			color: 	$background-color;
+			font-family: 'Nexa';
+
+			@media (max-width: 680px){
+				font-size: 	20px;
+			}
+
+			span{
+				font-family: 'Nexa-heavy';
+			}
+		}
+		a{
+		font-size: 28px;
+		font-family: 'Nexa';
+		color: #fff;
+		border-radius: 50px;
+		padding: 10px 26px;
+		background-color: $background-color;
+		margin-top:30px;
+		display: inline-block;
+
+		@media (max-width: 680px){
+				font-size: 	19px;
+				margin-top: 5px;	
+			}
+
+		span{
+			font-family: 'Nexa-heavy';
+		}
+
+
+
+	}
+	a:hover{
+			text-decoration: none;
+			color: $yellow-bor;
+		}
+	}
+	.about-angila{
+		max-width:  260px;
+		margin: 290px auto 0;
+		text-align: center;
+
+		@media (max-width: 767px){
+			margin: 20px auto;
+		}
+			p{
+			font-size: 14px;
+			color: $background-color;
+			font-family: 'Asap-italic';
+
+			span{
+				font-family: 'Asap-bold-italic';
+				display: block;
+				font-size: 20px
+			}
+		}
+		a{
+		font-size: 19px;
+		font-family: 'Nexa-heavy';
+		color: $background-color;
+		border-radius: 50px;
+		padding: 7px 22px;
+		background-color: $yellow-bor;
+		display: inline-block;
+		margin-top: 15px;
+		text-transform: uppercase;
+		span{
+			font-family: 'Nexa';
+		}	
+	}
+	a:hover{
+			text-decoration: none;
+			color: #fff;
+		}	
+	}
+}	
+.donations{
+	margin: 90px 0 50px 0;
+	text-align: center;
+
+	@media(max-width: 767px){
+	    	margin: 30px auto;
+	    }
+
+	h3{
+		text-transform: uppercase;
+		font-size: 27px;
+		color:  #929292;
+		font-family: 'Nexa';
+		margin-bottom:  30px;
+		letter-spacing: 1px;
+
+		@media(max-width: 767px){
+	    	font-size: 22px;
+	    }
+	}
+	.row-custom{
+		margin-right: -10px;
+		margin-left: -10px;
+	}
+	.content-donation{
+		width: 33.33%;
+		padding-left: 10px;
+		padding-right: 10px;
+		float: left;
+		margin-bottom: 20px;
+
+		@media(max-width: 991px){
+			width: 50%;
+		}
+		@media(max-width: 640px){
+			width: 100%;
+		}
+
+
+		.inner-details{
+			background-color: #f6f6f6;
+			border-radius: 	10px;
+			padding: 15px 15px 5px 15px;
+			width: 100%;
+			float: left;
+			min-height: 250px;
+
+
+			.uder-details{
+				width: 50%;
+				float: left;
+				max-width: 350px;
+				text-align: center;
+				min-height: 127px;
+				h3{
+					font-size: 17px;
+			        font-family: 'Nexa-heavy';
+			        color: 	$background-color;
+			        margin: 0; 
+			        text-transform: initial;
+
+				}
+				h5{
+					font-size: 14px;
+			        font-family: 'Nexa';
+			        color: 	$background-color;
+			        margin: 5px 0 0;
+				}
+				h4{
+					display: inline-block;
+					width: 117px;
+					height: 19px;
+					border-radius: 40px;
+					background-color: $yellow-bor;
+					color: 	$background-color;
+					font-family: 'Nexa-heavy';
+					font-size: 	18px;
+				}
+
+				p{
+					font-size: 14px;
+					color: 	$background-color;
+					font-family: 'Nexa';
+					margin: 0;	
+				}
+				span{
+					font-family: 'Nexa-heavy';
+					font-size: 14px;
+					color: 	$background-color;
+					display: inline-block;
+				}
+			}
+			.media-image{
+					width: 50%;
+					float: left;
+
+					img{
+						display: block;
+						max-width: 100%;
+					}
+				}
+			label{
+				font-size: 10px;
+				font-family: 'Nexa-italic';
+				color: #535253;
+				display: block;
+				text-align: left;
+				margin: 10px 0 0 4px;
+			}
+			textarea{
+				height: 60px;
+				width: 	100%;
+				border: none;
+				background-color: #fff;
+				border-radius: 	8px;
+				font-size: 10px;
+				font-family: 'Nexa';
+				padding: 5px;
+			}
+			.text-italic{
+				font-size: 10px;
+				font-family: 'Nexa-italic';
+				color: #535253;
+				display: block;
+				text-align: right;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+/*------------payment-form-----------------*/
+.payment-form{
+	padding: 110px 0;
+
+	.thank-you-report{
+		padding: 0 0 110px;
+		color: $background-color;
+		font-family: 'Nexa';
+
+		h3{
+			font-size: 33px;
+			margin: 0;
+			padding:0;
+			text-transform: uppercase;
+		}
+		@media (max-width: 767px){
+			padding: 0 0 30px;
+			h3{
+			font-size: 25px;
+			}
+		}
+		p{
+			font-size: 13px;
+			margin: 0;
+			padding:0;
+		}
+	}
+	.donation_amount{
+		h3{
+			font-size: 33px;
+			margin: 0 0 40px 0;
+			padding:0;
+			text-transform: uppercase;
+			color: $background-color;
+			font-family: 'Nexa';
+			text-align: center;
+
+			@media (max-width: 767px){
+				font-size: 25px;
+				margin-bottom: 20px;
+			}
+
+		}
+		.big-amount{
+			text-align: center;
+			margin: 0 auto;
+			padding: 0;
+			li{
+				width: 19%;
+				display: inline-block;
+				padding: 0 10px;
+				color: $background-color;
+
+				@media (max-width: 991px){
+					width: 31%;
+				}
+				@media (max-width: 767px){
+					width: 40%;
+				}
+				h4{
+					font-family: 'Nexa';
+					font-size: 15px;
+				}
+				p{
+					font-size: 34px;
+					background-color: $yellow-bor;
+					display: inline-block;
+					font-family: 'Nexa-heavy';
+					border-radius: 40px;
+					width: 164px;
+				    height: 55px;
+				    padding: 4px;
+				    margin-bottom: 20px;
+
+				    i{
+				    	font-size: 30px;
+				    }
+				    @media (max-width: 767px){
+						font-size: 24px;
+					    width: 109px;
+					    height: 38px;
+					    i{
+					    	font-size: 15px;
+					    }
+					}
+				}
+
+			}
+		}
+		.small_ammount{
+			text-align: center;
+			margin: 0 auto;
+			padding: 0;
+			li{
+				width: 19%;
+				display: inline-block;
+				margin: 0 15px;
+				color:  $yellow-bor;
+				font-size: 19px;
+				background-color:$background-color;
+				display: inline-block;
+				font-family: 'Nexa-heavy';
+				border-radius: 30px;
+				width: 110px;
+			    height: 35px;
+			    padding: 4px;
+			    margin-bottom: 20px;
+
+			    @media (max-width: 991px){
+					width: 31%;
+				}
+			}
+		}
+	}
+	h5, label{
+		font-size: 23px;
+		color: $background-color;
+		font-family: 'Nexa';
+		font-weight: normal;
+
+		@media (max-width: 991px){
+			font-size: 17px
+		}
+
+
+	}
+	@media (max-width: 767px){
+		h5{
+			margin-top: 20px;
+		}
+	
+		}
+	.information{
+		.form-control{
+			height: 47px;
+			font-size: 23px;
+			background-color: #f3f3f3;
+			border: none;
+			box-shadow: none;
+			border-radius: 40px;
+			margin-bottom: 20px;
+			font-family: 'Nexa';
+			padding-left: 20px;
+			font-family: 'Nexa';
+
+			@media (max-width: 991px){
+				font-size: 17px;
+				height: 47px;
+			}
+		}
+		textarea.extra{
+			height: 83px;
+			border-radius: 6px;
+			margin-bottom: 0;
+			@media (max-width: 991px){
+				font-size: 17px;
+			}
+		}
+		textarea.comment{
+			height: 120px;
+			border-radius: 6px;
+			margin-bottom: 0;
+		}
+		.charty-text{
+			margin-top: -50px;
+		}
+		.mar-top{
+			margin-top: 50px;
+		}
+		.mgt-20{
+			margin-top:-46px;
+		}
+		@media (max-width: 767px){
+					.charty-text{
+			margin-top: 0px;
+		}
+		.mar-top{
+			margin-top: 0px;
+		}
+		.mgt-20{
+			margin-top:0px;
+		}
+	}
+	.fileUpload {
+	    position: relative;
+	    overflow: hidden;
+	    margin: 10px;
+	}
+	.fileUpload input.upload {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    margin: 0;
+	    padding: 0;
+	    font-size: 20px;
+	    cursor: pointer;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+	}
+	.btn-primary.cutom{
+		font-size: 19px;
+		border-radius: 20px;
+		padding: 3px 9px;
+		color: $yellow-bor;
+		background-color: $background-color;
+		float: right;
+		width: 145px;
+		font-family: 'Nexa-heavy';
+
+		}
+	}
+	.payment-method{
+		h3{
+			font-size: 33px;
+			margin: 80px 0 40px 0;
+			padding:0;
+			text-transform: uppercase;
+			color: $background-color;
+			font-family: 'Nexa';
+			text-align: center;
+
+			@media (max-width: 767px){
+				font-size: 25px;
+			}
+		}
+		.methods_pay{
+			text-align: center;
+			margin: 0 auto;
+			padding:  0;
+			li{
+				width: 31%;
+				display: inline-block;
+				margin: 15px 0;
+				list-style-type: none;
+				background: url(../images/bor-verti.png) no-repeat right center;
+
+				@media (max-width: 767px){
+					width: 100%;
+					background: none;
+				}
+					img{
+					@media (max-width: 991px){
+						width: 150px;
+					}
+				}
+			}
+			li:last-child{
+				background-image: none;
+			}
+		}
+	}
+	.submit{
+		font-size: 32px;
+		font-family: 'Nexa-heavy';
+		color: $yellow-bor;
+		background: $background-color;
+		border-radius: 50px;
+		padding: 5px 40px;
+		margin: 40px 0;
+		@media (max-width: 767px){
+			font-size:20px;
+	
+		}
+
+	}
+}
