@@ -114,7 +114,9 @@ $yellow-bor: #ffc13c;
 
 	.item{
 		img{
-			@media (max-width: 991px){
+			width: 100%;
+
+			@media (max-width: 1199px){
 			object-fit: cover;
 		    height: 500px;
 		    width: auto;
@@ -135,21 +137,20 @@ $yellow-bor: #ffc13c;
 		background-image: none;
 	}
 	.carousel-indicators {
-		@media screen and (min-width: 768px){
 		    bottom: 35px;
-		}
 	}
 	.banner{
 		.banner-image{
 		padding-top: 140px;
 
-		@media (max-width: 991px){
-			padding-top: 90px;	
-			}
+		@media (max-width: 1199px){
+			padding-top: 140px;
+    		padding-right: 50px;	
+		}
 
 
 		@media (max-width: 767px){
-			padding-top: 80px;	
+			padding-top: 120px;	
 			}
 			h1{
 				font-size: 35px;
@@ -1091,6 +1092,7 @@ footer{
 				    padding: 4px;
 				    margin-bottom: 20px;
 
+
 				    i{
 				    	font-size: 30px;
 				    }
@@ -1102,6 +1104,10 @@ footer{
 					    	font-size: 15px;
 					    }
 					}
+				}
+				p:hover{
+					background: $background-color;
+					color: $yellow-bor;
 				}
 
 			}
@@ -1129,6 +1135,10 @@ footer{
 					width: 31%;
 				}
 			}
+			li:hover{
+					background:$yellow-bor;
+					color:  $background-color;
+				}
 		}
 	}
 	h5, label{
