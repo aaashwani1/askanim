@@ -10,7 +10,7 @@ $yellow-bor: #ffc13c;
 	position: absolute;
     width: 100%;
     top: 20px;
-    z-index: 9;
+    z-index: 99;
  		@media (max-width: 767px){
  			position: absolute;
     		top: 0;
@@ -59,7 +59,7 @@ $yellow-bor: #ffc13c;
 		}
 	}
 	.pos-relat{
-		position: 	relative;
+		position:	relative;
 	}
 	.search{
 		position: absolute;
@@ -113,8 +113,12 @@ $yellow-bor: #ffc13c;
 	}
 
 	.item{
+		height: 100%;
 		img{
 			width: 100%;
+			display: block;
+
+
 
 			@media (max-width: 1199px){
 			object-fit: cover;
@@ -208,6 +212,66 @@ $yellow-bor: #ffc13c;
 		}
 	}
 }
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+} 
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+} 
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:17px
+}
+.carousel-caption h3 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    } 
+    
 .height-40{
 		height: 60px;
 		background-color: $background-color;
@@ -323,6 +387,7 @@ $yellow-bor: #ffc13c;
 		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: 2px;
+		    z-index: 99;
 	}
 }
 
