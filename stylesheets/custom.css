@@ -1775,3 +1775,295 @@ footer .footer_logo {
   color: #5e306f;
   background: #ffc13c;
 }
+
+/*------------------campaign----------------*/
+/* line 1493, ../sass/custom.scss */
+.campaign-banner {
+  background: url(../images/about-banner.jpg) no-repeat center;
+  background-size: cover;
+  padding: 0px 0 40px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 1493, ../sass/custom.scss */
+  .campaign-banner {
+    margin-top: 90px;
+  }
+}
+/* line 1501, ../sass/custom.scss */
+.campaign-banner h1 {
+  font-size: 36px;
+  color: #5e306f;
+  font-family: 'Nexa-light';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 1510, ../sass/custom.scss */
+.campaign h2 {
+  text-transform: uppercase;
+  font-size: 27px;
+  color: #929292;
+  font-family: 'Nexa';
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 1510, ../sass/custom.scss */
+  .campaign h2 {
+    font-size: 22px;
+  }
+}
+/* line 1525, ../sass/custom.scss */
+.campaign .user_profile {
+  margin: 15px 0 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+/* line 1530, ../sass/custom.scss */
+.campaign .user_profile .user-img {
+  width: 134px;
+  height: 134px;
+  border-radius: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+/* line 1537, ../sass/custom.scss */
+.campaign .user_profile .user-img img {
+  max-width: 100%;
+  display: block;
+}
+/* line 1542, ../sass/custom.scss */
+.campaign .user_profile .uder-details {
+  max-width: 200px;
+  margin: 0 auto 35px;
+}
+/* line 1545, ../sass/custom.scss */
+.campaign .user_profile .uder-details h3 {
+  font-size: 14px;
+  font-family: 'Nexa-heavy';
+  color: #5e306f;
+  margin: 15px 0 5px;
+}
+/* line 1552, ../sass/custom.scss */
+.campaign .user_profile .uder-details h4 {
+  display: inline-block;
+  padding: 2px 16px;
+  border-radius: 40px;
+  background-color: #ffc13c;
+  color: #5e306f;
+  font-family: 'Nexa-heavy';
+  font-size: 18px;
+  margin: 2px 0;
+}
+/* line 1562, ../sass/custom.scss */
+.campaign .user_profile .uder-details .progress {
+  max-width: 570px;
+  margin: 0 auto;
+  height: 7px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  overflow: hidden;
+  background-color: #212121;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
+  border: 1px solid #9c50b7;
+  border-radius: 59px;
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+}
+@media screen and (max-width: 767px) {
+  /* line 1562, ../sass/custom.scss */
+  .campaign .user_profile .uder-details .progress {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 9px;
+    border: 1px solid #9c50b7;
+  }
+}
+/* line 1589, ../sass/custom.scss */
+.campaign .user_profile .uder-details .progress-bar {
+  background-color: #9d49bc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+  border-right: 1px solid #fff;
+  animation: progress-bar-stripes 2s linear infinite;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* line 1602, ../sass/custom.scss */
+.campaign .user_profile .uder-details .progress-bar-striped, .campaign .user_profile .uder-details .progress-striped .progress-bar {
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+}
+/* line 1606, ../sass/custom.scss */
+.campaign .user_profile .uder-details p {
+  font-size: 12px;
+  color: #5e306f;
+  font-family: 'Nexa';
+}
+/* line 1610, ../sass/custom.scss */
+.campaign .user_profile .uder-details p span {
+  font-family: 'Nexa-heavy';
+}
+
+/* line 1617, ../sass/custom.scss */
+.donations-campaign {
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 1617, ../sass/custom.scss */
+  .donations-campaign {
+    margin: 30px auto;
+  }
+}
+/* line 1625, ../sass/custom.scss */
+.donations-campaign h3 {
+  text-transform: uppercase;
+  font-size: 27px;
+  color: #929292;
+  font-family: 'Nexa';
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+  /* line 1625, ../sass/custom.scss */
+  .donations-campaign h3 {
+    font-size: 22px;
+  }
+}
+/* line 1637, ../sass/custom.scss */
+.donations-campaign .row-custom {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+/* line 1641, ../sass/custom.scss */
+.donations-campaign .content-donation {
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  margin-bottom: 20px;
+}
+@media (max-width: 1400px) {
+  /* line 1641, ../sass/custom.scss */
+  .donations-campaign .content-donation {
+    width: 33.33%;
+  }
+}
+@media (max-width: 991px) {
+  /* line 1641, ../sass/custom.scss */
+  .donations-campaign .content-donation {
+    width: 50%;
+  }
+}
+@media (max-width: 640px) {
+  /* line 1641, ../sass/custom.scss */
+  .donations-campaign .content-donation {
+    width: 100%;
+  }
+}
+/* line 1657, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 15px 15px 5px 15px;
+  width: 100%;
+  float: left;
+  min-height: 250px;
+}
+/* line 1665, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details {
+  width: 50%;
+  float: left;
+  max-width: 350px;
+  text-align: center;
+  min-height: 127px;
+}
+/* line 1671, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details h3 {
+  font-size: 17px;
+  font-family: 'Nexa-heavy';
+  color: #5e306f;
+  margin: 0;
+  text-transform: initial;
+}
+/* line 1679, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details h5 {
+  font-size: 14px;
+  font-family: 'Nexa';
+  color: #5e306f;
+  margin: 5px 0 0;
+}
+/* line 1685, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details h4 {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 40px;
+  background-color: #ffc13c;
+  color: #5e306f;
+  font-family: 'Nexa-heavy';
+  font-size: 18px;
+}
+/* line 1695, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details p {
+  font-size: 14px;
+  color: #5e306f;
+  font-family: 'Nexa';
+  margin: 0;
+}
+/* line 1701, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .uder-details span {
+  font-family: 'Nexa-heavy';
+  font-size: 14px;
+  color: #5e306f;
+  display: inline-block;
+}
+/* line 1708, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .media-image {
+  width: 50%;
+  float: left;
+}
+/* line 1712, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .media-image img {
+  display: block;
+  max-width: 100%;
+}
+/* line 1717, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details label {
+  font-size: 10px;
+  font-family: 'Nexa-italic';
+  color: #535253;
+  display: block;
+  text-align: left;
+  margin: 10px 0 0 4px;
+}
+/* line 1725, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details textarea {
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 10px;
+  font-family: 'Nexa';
+  padding: 5px;
+}
+/* line 1735, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details .text-italic {
+  font-size: 10px;
+  font-family: 'Nexa-italic';
+  color: #535253;
+  display: block;
+  text-align: right;
+  margin-bottom: 0;
+}
