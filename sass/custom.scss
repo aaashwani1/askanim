@@ -1749,6 +1749,10 @@ footer{
 			border-radius: 50px;
 			font-size: 30px;
 		}
+		h3:hover{
+			
+			color: $yellow-bor;
+		}
 	}
 	.donator_name{
 		p{
@@ -1759,6 +1763,13 @@ footer{
 			font-size: 18px;
 			margin-bottom: 5px;
 		}
+		p:hover{
+			background-color: $background-color;
+			color: $yellow-bor;
+		}
+	}
+	a:hover{
+		text-decoration: none;
 	}
 }
 /*-----------------thnk-you-------------------*/

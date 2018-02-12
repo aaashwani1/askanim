@@ -2065,7 +2065,11 @@ footer .footer_logo {
   border-radius: 50px;
   font-size: 30px;
 }
-/* line 1754, ../sass/custom.scss */
+/* line 1752, ../sass/custom.scss */
+.donator_list .donator_price h3:hover {
+  color: #ffc13c;
+}
+/* line 1758, ../sass/custom.scss */
 .donator_list .donator_name p {
   background-color: #ffc13c;
   color: #5e306f;
@@ -2074,53 +2078,62 @@ footer .footer_logo {
   font-size: 18px;
   margin-bottom: 5px;
 }
+/* line 1766, ../sass/custom.scss */
+.donator_list .donator_name p:hover {
+  background-color: #5e306f;
+  color: #ffc13c;
+}
+/* line 1771, ../sass/custom.scss */
+.donator_list a:hover {
+  text-decoration: none;
+}
 
 /*-----------------thnk-you-------------------*/
-/* line 1765, ../sass/custom.scss */
+/* line 1776, ../sass/custom.scss */
 .thnk-you {
   margin: 100px 0 150px;
   text-align: center;
   color: #5e306f;
   font-family: 'Nexa';
 }
-/* line 1771, ../sass/custom.scss */
+/* line 1782, ../sass/custom.scss */
 .thnk-you h3 {
   font-size: 30px;
   margin-bottom: 50px;
 }
-/* line 1775, ../sass/custom.scss */
+/* line 1786, ../sass/custom.scss */
 .thnk-you h4 {
   font-size: 30px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 1780, ../sass/custom.scss */
+/* line 1791, ../sass/custom.scss */
 .thnk-you p {
   font-size: 18px;
 }
 @media (max-width: 767px) {
-  /* line 1765, ../sass/custom.scss */
+  /* line 1776, ../sass/custom.scss */
   .thnk-you {
     margin: 70px 0 150px;
   }
-  /* line 1786, ../sass/custom.scss */
+  /* line 1797, ../sass/custom.scss */
   .thnk-you h3 {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  /* line 1790, ../sass/custom.scss */
+  /* line 1801, ../sass/custom.scss */
   .thnk-you h4 {
     font-size: 20px;
     margin-bottom: 5px;
     text-transform: uppercase;
   }
-  /* line 1795, ../sass/custom.scss */
+  /* line 1806, ../sass/custom.scss */
   .thnk-you p {
     font-size: 13px;
   }
 }
 
-/* line 1800, ../sass/custom.scss */
+/* line 1811, ../sass/custom.scss */
 .owl-prev {
   margin-top: 10px;
   position: absolute;
@@ -2133,13 +2146,13 @@ footer .footer_logo {
   width: 50px;
 }
 @media (max-width: 767px) {
-  /* line 1800, ../sass/custom.scss */
+  /* line 1811, ../sass/custom.scss */
   .owl-prev {
     left: 0;
   }
 }
 
-/* line 1814, ../sass/custom.scss */
+/* line 1825, ../sass/custom.scss */
 .owl-next {
   margin-top: 10px;
   position: absolute;
@@ -2152,7 +2165,7 @@ footer .footer_logo {
   width: 50px;
 }
 @media (max-width: 767px) {
-  /* line 1814, ../sass/custom.scss */
+  /* line 1825, ../sass/custom.scss */
   .owl-next {
     right: 0;
   }
