@@ -1948,31 +1948,13 @@ footer .footer_logo {
 }
 /* line 1641, ../sass/custom.scss */
 .donations-campaign .content-donation {
-  width: 25%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   float: left;
   margin-bottom: 20px;
 }
-@media (max-width: 1400px) {
-  /* line 1641, ../sass/custom.scss */
-  .donations-campaign .content-donation {
-    width: 33.33%;
-  }
-}
-@media (max-width: 991px) {
-  /* line 1641, ../sass/custom.scss */
-  .donations-campaign .content-donation {
-    width: 50%;
-  }
-}
-@media (max-width: 640px) {
-  /* line 1641, ../sass/custom.scss */
-  .donations-campaign .content-donation {
-    width: 100%;
-  }
-}
-/* line 1657, ../sass/custom.scss */
+/* line 1649, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details {
   background-color: #f6f6f6;
   border-radius: 10px;
@@ -1981,7 +1963,7 @@ footer .footer_logo {
   float: left;
   min-height: 250px;
 }
-/* line 1665, ../sass/custom.scss */
+/* line 1657, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details {
   width: 50%;
   float: left;
@@ -1989,7 +1971,7 @@ footer .footer_logo {
   text-align: center;
   min-height: 127px;
 }
-/* line 1671, ../sass/custom.scss */
+/* line 1663, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h3 {
   font-size: 17px;
   font-family: 'Nexa-heavy';
@@ -1997,14 +1979,14 @@ footer .footer_logo {
   margin: 0;
   text-transform: initial;
 }
-/* line 1679, ../sass/custom.scss */
+/* line 1671, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h5 {
   font-size: 14px;
   font-family: 'Nexa';
   color: #5e306f;
   margin: 5px 0 0;
 }
-/* line 1685, ../sass/custom.scss */
+/* line 1677, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h4 {
   display: inline-block;
   padding: 1px 10px;
@@ -2014,31 +1996,31 @@ footer .footer_logo {
   font-family: 'Nexa-heavy';
   font-size: 18px;
 }
-/* line 1695, ../sass/custom.scss */
+/* line 1687, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details p {
   font-size: 14px;
   color: #5e306f;
   font-family: 'Nexa';
   margin: 0;
 }
-/* line 1701, ../sass/custom.scss */
+/* line 1693, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details span {
   font-family: 'Nexa-heavy';
   font-size: 14px;
   color: #5e306f;
   display: inline-block;
 }
-/* line 1708, ../sass/custom.scss */
+/* line 1700, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .media-image {
   width: 50%;
   float: left;
 }
-/* line 1712, ../sass/custom.scss */
+/* line 1704, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .media-image img {
   display: block;
-  max-width: 100%;
+  max-width: 100px;
 }
-/* line 1717, ../sass/custom.scss */
+/* line 1709, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details label {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -2047,7 +2029,7 @@ footer .footer_logo {
   text-align: left;
   margin: 10px 0 0 4px;
 }
-/* line 1725, ../sass/custom.scss */
+/* line 1717, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details textarea {
   height: 60px;
   width: 100%;
@@ -2058,7 +2040,7 @@ footer .footer_logo {
   font-family: 'Nexa';
   padding: 5px;
 }
-/* line 1735, ../sass/custom.scss */
+/* line 1727, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .text-italic {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -2066,4 +2048,112 @@ footer .footer_logo {
   display: block;
   text-align: right;
   margin-bottom: 0;
+}
+
+/*----------------donator_list----------------*/
+/* line 1740, ../sass/custom.scss */
+.donator_list {
+  text-align: center;
+  font-family: 'Nexa-heavy';
+  margin: 50px 0;
+}
+/* line 1745, ../sass/custom.scss */
+.donator_list .donator_price h3 {
+  background-color: #5e306f;
+  color: #fff;
+  padding: 4px 20px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+/* line 1754, ../sass/custom.scss */
+.donator_list .donator_name p {
+  background-color: #ffc13c;
+  color: #5e306f;
+  padding: 1px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/*-----------------thnk-you-------------------*/
+/* line 1765, ../sass/custom.scss */
+.thnk-you {
+  margin: 100px 0 150px;
+  text-align: center;
+  color: #5e306f;
+  font-family: 'Nexa';
+}
+/* line 1771, ../sass/custom.scss */
+.thnk-you h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+/* line 1775, ../sass/custom.scss */
+.thnk-you h4 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+/* line 1780, ../sass/custom.scss */
+.thnk-you p {
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  /* line 1765, ../sass/custom.scss */
+  .thnk-you {
+    margin: 70px 0 150px;
+  }
+  /* line 1786, ../sass/custom.scss */
+  .thnk-you h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 1790, ../sass/custom.scss */
+  .thnk-you h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  /* line 1795, ../sass/custom.scss */
+  .thnk-you p {
+    font-size: 13px;
+  }
+}
+
+/* line 1800, ../sass/custom.scss */
+.owl-prev {
+  margin-top: 10px;
+  position: absolute;
+  top: 28%;
+  left: -40px;
+  background-color: transparent !important;
+  font-size: 0px !important;
+  background: url(../images/next-pre-icon.png) no-repeat right 18px top 10px !important;
+  height: 60px;
+  width: 50px;
+}
+@media (max-width: 767px) {
+  /* line 1800, ../sass/custom.scss */
+  .owl-prev {
+    left: 0;
+  }
+}
+
+/* line 1814, ../sass/custom.scss */
+.owl-next {
+  margin-top: 10px;
+  position: absolute;
+  top: 28%;
+  right: -40px;
+  background-color: transparent !important;
+  font-size: 0px !important;
+  background: url(../images/next-pre-icon.png) no-repeat left 18px top 10px !important;
+  height: 60px;
+  width: 50px;
+}
+@media (max-width: 767px) {
+  /* line 1814, ../sass/custom.scss */
+  .owl-next {
+    right: 0;
+  }
 }
