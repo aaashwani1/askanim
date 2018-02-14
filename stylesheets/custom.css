@@ -809,49 +809,51 @@ footer {
   font-family: 'Nexa';
 }
 /* line 658, ../sass/custom.scss */
+footer h3 {
+  font-size: 20px;
+}
+/* line 662, ../sass/custom.scss */
 footer address, footer p {
   margin: 0;
-  padding-left: 80px;
   line-height: 1.7em;
   font-size: 16px;
 }
 @media (max-width: 767px) {
-  /* line 664, ../sass/custom.scss */
+  /* line 667, ../sass/custom.scss */
   footer address {
     margin-bottom: 20px;
   }
 }
-/* line 669, ../sass/custom.scss */
+/* line 672, ../sass/custom.scss */
 footer .mobile-logo {
-  padding-left: 80px;
   margin-bottom: 10px;
 }
-/* line 673, ../sass/custom.scss */
+/* line 675, ../sass/custom.scss */
 footer a {
   color: #fff;
 }
-/* line 676, ../sass/custom.scss */
+/* line 678, ../sass/custom.scss */
 footer .footer_logo {
   float: right;
   margin-right: 40px;
 }
 
 /*---------askanim-page--------------*/
-/* line 683, ../sass/custom.scss */
+/* line 685, ../sass/custom.scss */
 .navbar-default.inner-pages {
   position: relative;
   background-color: #5e306f;
   top: 0;
 }
 @media (max-width: 767px) {
-  /* line 683, ../sass/custom.scss */
+  /* line 685, ../sass/custom.scss */
   .navbar-default.inner-pages {
     position: absolute;
     z-index: 999;
   }
 }
 
-/* line 693, ../sass/custom.scss */
+/* line 695, ../sass/custom.scss */
 .about-banner {
   background: url(../images/about-banner.jpg) no-repeat center;
   background-size: cover;
@@ -859,12 +861,12 @@ footer .footer_logo {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 693, ../sass/custom.scss */
+  /* line 695, ../sass/custom.scss */
   .about-banner {
     margin-top: 70px;
   }
 }
-/* line 701, ../sass/custom.scss */
+/* line 703, ../sass/custom.scss */
 .about-banner h1 {
   font-size: 36px;
   color: #5e306f;
@@ -873,25 +875,25 @@ footer .footer_logo {
   letter-spacing: 1px;
 }
 
-/* line 709, ../sass/custom.scss */
+/* line 711, ../sass/custom.scss */
 .about-section {
   padding: 20px 0;
 }
-/* line 712, ../sass/custom.scss */
+/* line 714, ../sass/custom.scss */
 .about-section .search {
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 712, ../sass/custom.scss */
+  /* line 714, ../sass/custom.scss */
   .about-section .search {
     float: none;
   }
 }
-/* line 718, ../sass/custom.scss */
+/* line 720, ../sass/custom.scss */
 .about-section .search .form-group {
   margin: 0;
 }
-/* line 721, ../sass/custom.scss */
+/* line 723, ../sass/custom.scss */
 .about-section .search input {
   color: #848484;
   height: 37px;
@@ -910,26 +912,26 @@ footer .footer_logo {
   box-shadow: none;
 }
 @media (max-width: 767px) {
-  /* line 721, ../sass/custom.scss */
+  /* line 723, ../sass/custom.scss */
   .about-section .search input {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-/* line 743, ../sass/custom.scss */
+/* line 745, ../sass/custom.scss */
 .about-section .search ::placeholder {
   color: #848484;
 }
-/* line 747, ../sass/custom.scss */
+/* line 749, ../sass/custom.scss */
 .about-section .search :-ms-input-placeholder {
   color: #848484;
 }
-/* line 751, ../sass/custom.scss */
+/* line 753, ../sass/custom.scss */
 .about-section .search ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #848484;
 }
-/* line 755, ../sass/custom.scss */
+/* line 757, ../sass/custom.scss */
 .about-section select {
   color: #848484;
   height: 37px;
@@ -945,24 +947,24 @@ footer .footer_logo {
   appearance: none;
 }
 @media (max-width: 767px) {
-  /* line 755, ../sass/custom.scss */
+  /* line 757, ../sass/custom.scss */
   .about-section select {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-/* line 774, ../sass/custom.scss */
+/* line 776, ../sass/custom.scss */
 .about-section select:focus {
   outline: none;
 }
-/* line 777, ../sass/custom.scss */
+/* line 779, ../sass/custom.scss */
 .about-section .user_profile {
   margin: 65px 0;
   float: left;
   width: 100%;
   text-align: center;
 }
-/* line 782, ../sass/custom.scss */
+/* line 784, ../sass/custom.scss */
 .about-section .user_profile .user-img {
   width: 134px;
   height: 134px;
@@ -970,35 +972,35 @@ footer .footer_logo {
   margin: 0px auto;
   overflow: hidden;
 }
-/* line 789, ../sass/custom.scss */
+/* line 791, ../sass/custom.scss */
 .about-section .user_profile .user-img img {
   max-width: 100%;
   display: block;
 }
-/* line 794, ../sass/custom.scss */
+/* line 796, ../sass/custom.scss */
 .about-section .user_profile .uder-details {
   max-width: 200px;
   margin: 0 auto 35px;
 }
-/* line 797, ../sass/custom.scss */
+/* line 799, ../sass/custom.scss */
 .about-section .user_profile .uder-details h3 {
   font-size: 14px;
   font-family: 'Nexa-heavy';
   color: #5e306f;
   margin: 15px 0 5px;
 }
-/* line 804, ../sass/custom.scss */
+/* line 806, ../sass/custom.scss */
 .about-section .user_profile .uder-details h4 {
   display: inline-block;
-  padding: 2px 16px;
+  padding: 2px 12px;
   border-radius: 40px;
   background-color: #ffc13c;
   color: #5e306f;
   font-family: 'Nexa-heavy';
-  font-size: 18px;
+  font-size: 15px;
   margin: 2px 0;
 }
-/* line 814, ../sass/custom.scss */
+/* line 816, ../sass/custom.scss */
 .about-section .user_profile .uder-details .progress {
   max-width: 570px;
   margin: 0 auto;
@@ -1019,7 +1021,7 @@ footer .footer_logo {
   background-size: 10px 10px;
 }
 @media screen and (max-width: 767px) {
-  /* line 814, ../sass/custom.scss */
+  /* line 816, ../sass/custom.scss */
   .about-section .user_profile .uder-details .progress {
     max-width: 80%;
     margin: 0 auto;
@@ -1027,7 +1029,7 @@ footer .footer_logo {
     border: 1px solid #9c50b7;
   }
 }
-/* line 842, ../sass/custom.scss */
+/* line 844, ../sass/custom.scss */
 .about-section .user_profile .uder-details .progress-bar {
   background-color: #9d49bc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
@@ -1039,44 +1041,44 @@ footer .footer_logo {
   animation: progress-bar-stripes 2s linear infinite;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 855, ../sass/custom.scss */
+/* line 857, ../sass/custom.scss */
 .about-section .user_profile .uder-details .progress-bar-striped, .about-section .user_profile .uder-details .progress-striped .progress-bar {
   -webkit-background-size: 10px 10px;
   background-size: 10px 10px;
 }
-/* line 860, ../sass/custom.scss */
+/* line 862, ../sass/custom.scss */
 .about-section .user_profile .uder-details p {
   font-size: 12px;
   color: #5e306f;
   font-family: 'Nexa';
 }
-/* line 864, ../sass/custom.scss */
+/* line 866, ../sass/custom.scss */
 .about-section .user_profile .uder-details p span {
   font-family: 'Nexa-heavy';
 }
-/* line 870, ../sass/custom.scss */
+/* line 872, ../sass/custom.scss */
 .about-section .row-1 {
   margin-left: -10px;
   margin-right: -10px;
 }
-/* line 874, ../sass/custom.scss */
+/* line 876, ../sass/custom.scss */
 .about-section .pad-about {
   padding: 0 10px;
 }
 
 /*--------------------user-page-------------------------*/
-/* line 880, ../sass/custom.scss */
+/* line 882, ../sass/custom.scss */
 .user-section {
   margin: 70px 0;
   display: block;
 }
 @media (max-width: 767px) {
-  /* line 880, ../sass/custom.scss */
+  /* line 882, ../sass/custom.scss */
   .user-section {
     margin: 30px auto;
   }
 }
-/* line 886, ../sass/custom.scss */
+/* line 888, ../sass/custom.scss */
 .user-section .uder-profile-pic {
   width: 360px;
   height: 360px;
@@ -1084,48 +1086,51 @@ footer .footer_logo {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 886, ../sass/custom.scss */
+  /* line 888, ../sass/custom.scss */
   .user-section .uder-profile-pic {
     margin: 0 auto;
     width: 240px;
     height: 240px;
   }
 }
-/* line 898, ../sass/custom.scss */
+/* line 900, ../sass/custom.scss */
 .user-section .uder-profile-pic img {
   max-width: 100%;
   display: block;
 }
-/* line 903, ../sass/custom.scss */
+/* line 905, ../sass/custom.scss */
 .user-section .user-content {
   max-width: 400px;
   margin-top: 60px;
+  overflow-y: scroll;
+  max-height: 450px;
+  padding-right: 10px;
 }
 @media (max-width: 767px) {
-  /* line 903, ../sass/custom.scss */
+  /* line 905, ../sass/custom.scss */
   .user-section .user-content {
     margin: 30px auto;
   }
 }
-/* line 909, ../sass/custom.scss */
+/* line 915, ../sass/custom.scss */
 .user-section .user-content p {
   font-size: 14px;
   color: #5e306f;
   font-family: 'Nexa';
   text-align: justify;
 }
-/* line 915, ../sass/custom.scss */
+/* line 921, ../sass/custom.scss */
 .user-section .user-content p.text-right {
   text-align: right;
   font-family: 'Nexa-heavy';
 }
-/* line 920, ../sass/custom.scss */
+/* line 926, ../sass/custom.scss */
 .user-section .uder-details {
   max-width: 350px;
   margin: 0 auto 35px;
   text-align: center;
 }
-/* line 924, ../sass/custom.scss */
+/* line 930, ../sass/custom.scss */
 .user-section .uder-details h3 {
   font-size: 40px;
   font-family: 'Nexa-heavy';
@@ -1133,13 +1138,13 @@ footer .footer_logo {
   margin: 15px 0 60px;
 }
 @media (max-width: 680px) {
-  /* line 924, ../sass/custom.scss */
+  /* line 930, ../sass/custom.scss */
   .user-section .uder-details h3 {
     font-size: 30px;
     margin: 0 auto	20px;
   }
 }
-/* line 936, ../sass/custom.scss */
+/* line 942, ../sass/custom.scss */
 .user-section .uder-details h4 {
   display: inline-block;
   padding: 2px 29px;
@@ -1151,7 +1156,7 @@ footer .footer_logo {
   margin: 15px 0;
 }
 @media (max-width: 680px) {
-  /* line 936, ../sass/custom.scss */
+  /* line 942, ../sass/custom.scss */
   .user-section .uder-details h4 {
     font-size: 28px;
     margin: 10px auto;
@@ -1159,7 +1164,7 @@ footer .footer_logo {
     height: 30px;
   }
 }
-/* line 953, ../sass/custom.scss */
+/* line 959, ../sass/custom.scss */
 .user-section .uder-details .progress {
   max-width: 570px;
   margin: 0 auto;
@@ -1180,7 +1185,7 @@ footer .footer_logo {
   background-size: 10px 10px;
 }
 @media screen and (max-width: 767px) {
-  /* line 953, ../sass/custom.scss */
+  /* line 959, ../sass/custom.scss */
   .user-section .uder-details .progress {
     max-width: 80%;
     margin: 0 auto;
@@ -1188,7 +1193,7 @@ footer .footer_logo {
     border: 1px solid #9c50b7;
   }
 }
-/* line 981, ../sass/custom.scss */
+/* line 987, ../sass/custom.scss */
 .user-section .uder-details .progress-bar {
   background-color: #9d49bc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
@@ -1200,28 +1205,28 @@ footer .footer_logo {
   animation: progress-bar-stripes 2s linear infinite;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 994, ../sass/custom.scss */
+/* line 1000, ../sass/custom.scss */
 .user-section .uder-details .progress-bar-striped, .user-section .uder-details .progress-striped .progress-bar {
   -webkit-background-size: 10px 10px;
   background-size: 10px 10px;
 }
-/* line 999, ../sass/custom.scss */
+/* line 1005, ../sass/custom.scss */
 .user-section .uder-details p {
   font-size: 25px;
   color: #5e306f;
   font-family: 'Nexa';
 }
 @media (max-width: 680px) {
-  /* line 999, ../sass/custom.scss */
+  /* line 1005, ../sass/custom.scss */
   .user-section .uder-details p {
     font-size: 20px;
   }
 }
-/* line 1008, ../sass/custom.scss */
+/* line 1014, ../sass/custom.scss */
 .user-section .uder-details p span {
   font-family: 'Nexa-heavy';
 }
-/* line 1012, ../sass/custom.scss */
+/* line 1018, ../sass/custom.scss */
 .user-section .uder-details a {
   font-size: 28px;
   font-family: 'Nexa';
@@ -1233,46 +1238,46 @@ footer .footer_logo {
   display: inline-block;
 }
 @media (max-width: 680px) {
-  /* line 1012, ../sass/custom.scss */
+  /* line 1018, ../sass/custom.scss */
   .user-section .uder-details a {
     font-size: 19px;
     margin-top: 5px;
   }
 }
-/* line 1027, ../sass/custom.scss */
+/* line 1033, ../sass/custom.scss */
 .user-section .uder-details a span {
   font-family: 'Nexa-heavy';
 }
-/* line 1034, ../sass/custom.scss */
+/* line 1040, ../sass/custom.scss */
 .user-section .uder-details a:hover {
   text-decoration: none;
   color: #ffc13c;
 }
-/* line 1039, ../sass/custom.scss */
+/* line 1045, ../sass/custom.scss */
 .user-section .about-angila {
   max-width: 260px;
   margin: 290px auto 0;
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1039, ../sass/custom.scss */
+  /* line 1045, ../sass/custom.scss */
   .user-section .about-angila {
     margin: 20px auto;
   }
 }
-/* line 1047, ../sass/custom.scss */
+/* line 1053, ../sass/custom.scss */
 .user-section .about-angila p {
   font-size: 14px;
   color: #5e306f;
   font-family: 'Asap-italic';
 }
-/* line 1052, ../sass/custom.scss */
+/* line 1058, ../sass/custom.scss */
 .user-section .about-angila p span {
   font-family: 'Asap-bold-italic';
   display: block;
   font-size: 20px;
 }
-/* line 1058, ../sass/custom.scss */
+/* line 1064, ../sass/custom.scss */
 .user-section .about-angila a {
   font-size: 19px;
   font-family: 'Nexa-heavy';
@@ -1284,28 +1289,28 @@ footer .footer_logo {
   margin-top: 15px;
   text-transform: uppercase;
 }
-/* line 1068, ../sass/custom.scss */
+/* line 1074, ../sass/custom.scss */
 .user-section .about-angila a span {
   font-family: 'Nexa';
 }
-/* line 1072, ../sass/custom.scss */
+/* line 1078, ../sass/custom.scss */
 .user-section .about-angila a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 1078, ../sass/custom.scss */
+/* line 1084, ../sass/custom.scss */
 .donations {
   margin: 90px 0 50px 0;
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1078, ../sass/custom.scss */
+  /* line 1084, ../sass/custom.scss */
   .donations {
     margin: 30px auto;
   }
 }
-/* line 1086, ../sass/custom.scss */
+/* line 1092, ../sass/custom.scss */
 .donations h3 {
   text-transform: uppercase;
   font-size: 27px;
@@ -1315,17 +1320,17 @@ footer .footer_logo {
   letter-spacing: 1px;
 }
 @media (max-width: 767px) {
-  /* line 1086, ../sass/custom.scss */
+  /* line 1092, ../sass/custom.scss */
   .donations h3 {
     font-size: 22px;
   }
 }
-/* line 1098, ../sass/custom.scss */
+/* line 1104, ../sass/custom.scss */
 .donations .row-custom {
   margin-right: -10px;
   margin-left: -10px;
 }
-/* line 1102, ../sass/custom.scss */
+/* line 1108, ../sass/custom.scss */
 .donations .content-donation {
   width: 33.33%;
   padding-left: 10px;
@@ -1334,18 +1339,18 @@ footer .footer_logo {
   margin-bottom: 20px;
 }
 @media (max-width: 991px) {
-  /* line 1102, ../sass/custom.scss */
+  /* line 1108, ../sass/custom.scss */
   .donations .content-donation {
     width: 50%;
   }
 }
 @media (max-width: 640px) {
-  /* line 1102, ../sass/custom.scss */
+  /* line 1108, ../sass/custom.scss */
   .donations .content-donation {
     width: 100%;
   }
 }
-/* line 1117, ../sass/custom.scss */
+/* line 1123, ../sass/custom.scss */
 .donations .content-donation .inner-details {
   background-color: #f6f6f6;
   border-radius: 10px;
@@ -1354,7 +1359,7 @@ footer .footer_logo {
   float: left;
   min-height: 250px;
 }
-/* line 1126, ../sass/custom.scss */
+/* line 1132, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details {
   width: 50%;
   float: left;
@@ -1362,22 +1367,24 @@ footer .footer_logo {
   text-align: center;
   min-height: 127px;
 }
-/* line 1132, ../sass/custom.scss */
+/* line 1138, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details h3 {
+  height: 39px;
+  overflow: hidden;
   font-size: 17px;
   font-family: 'Nexa-heavy';
   color: #5e306f;
   margin: 0;
   text-transform: initial;
 }
-/* line 1140, ../sass/custom.scss */
+/* line 1148, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details h5 {
   font-size: 14px;
   font-family: 'Nexa';
   color: #5e306f;
   margin: 5px 0 0;
 }
-/* line 1146, ../sass/custom.scss */
+/* line 1154, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details h4 {
   display: inline-block;
   padding: 1px 10px;
@@ -1385,33 +1392,40 @@ footer .footer_logo {
   background-color: #ffc13c;
   color: #5e306f;
   font-family: 'Nexa-heavy';
-  font-size: 18px;
+  font-size: 15px;
 }
-/* line 1156, ../sass/custom.scss */
+/* line 1164, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details p {
   font-size: 14px;
   color: #5e306f;
   font-family: 'Nexa';
   margin: 0;
 }
-/* line 1162, ../sass/custom.scss */
+/* line 1170, ../sass/custom.scss */
 .donations .content-donation .inner-details .uder-details span {
   font-family: 'Nexa-heavy';
   font-size: 14px;
   color: #5e306f;
   display: inline-block;
 }
-/* line 1169, ../sass/custom.scss */
+/* line 1177, ../sass/custom.scss */
 .donations .content-donation .inner-details .media-image {
   width: 50%;
   float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
 }
-/* line 1173, ../sass/custom.scss */
+/* line 1185, ../sass/custom.scss */
 .donations .content-donation .inner-details .media-image img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100px;
 }
-/* line 1178, ../sass/custom.scss */
+/* line 1193, ../sass/custom.scss */
 .donations .content-donation .inner-details label {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -1420,8 +1434,8 @@ footer .footer_logo {
   text-align: left;
   margin: 10px 0 0 4px;
 }
-/* line 1186, ../sass/custom.scss */
-.donations .content-donation .inner-details textarea {
+/* line 1201, ../sass/custom.scss */
+.donations .content-donation .inner-details textarea, .donations .content-donation .inner-details .comment {
   height: 60px;
   width: 100%;
   border: none;
@@ -1430,8 +1444,10 @@ footer .footer_logo {
   font-size: 10px;
   font-family: 'Nexa';
   padding: 5px;
+  max-height: 70px;
+  overflow-y: scroll;
 }
-/* line 1196, ../sass/custom.scss */
+/* line 1213, ../sass/custom.scss */
 .donations .content-donation .inner-details .text-italic {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -1442,17 +1458,17 @@ footer .footer_logo {
 }
 
 /*------------payment-form-----------------*/
-/* line 1208, ../sass/custom.scss */
+/* line 1225, ../sass/custom.scss */
 .payment-form {
   padding: 110px 0;
 }
-/* line 1211, ../sass/custom.scss */
+/* line 1228, ../sass/custom.scss */
 .payment-form .thank-you-report {
   padding: 0 0 110px;
   color: #5e306f;
   font-family: 'Nexa';
 }
-/* line 1216, ../sass/custom.scss */
+/* line 1233, ../sass/custom.scss */
 .payment-form .thank-you-report h3 {
   font-size: 33px;
   margin: 0;
@@ -1460,22 +1476,22 @@ footer .footer_logo {
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  /* line 1211, ../sass/custom.scss */
+  /* line 1228, ../sass/custom.scss */
   .payment-form .thank-you-report {
     padding: 0 0 30px;
   }
-  /* line 1224, ../sass/custom.scss */
+  /* line 1241, ../sass/custom.scss */
   .payment-form .thank-you-report h3 {
     font-size: 25px;
   }
 }
-/* line 1228, ../sass/custom.scss */
+/* line 1245, ../sass/custom.scss */
 .payment-form .thank-you-report p {
   font-size: 13px;
   margin: 0;
   padding: 0;
 }
-/* line 1235, ../sass/custom.scss */
+/* line 1252, ../sass/custom.scss */
 .payment-form .donation_amount h3 {
   font-size: 33px;
   margin: 0 0 40px 0;
@@ -1486,19 +1502,19 @@ footer .footer_logo {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1235, ../sass/custom.scss */
+  /* line 1252, ../sass/custom.scss */
   .payment-form .donation_amount h3 {
     font-size: 25px;
     margin-bottom: 20px;
   }
 }
-/* line 1250, ../sass/custom.scss */
+/* line 1267, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount {
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-/* line 1254, ../sass/custom.scss */
+/* line 1271, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount li {
   width: auto;
   display: inline-block;
@@ -1506,25 +1522,25 @@ footer .footer_logo {
   color: #5e306f;
 }
 @media (max-width: 991px) {
-  /* line 1254, ../sass/custom.scss */
+  /* line 1271, ../sass/custom.scss */
   .payment-form .donation_amount .big-amount li {
     width: 31%;
   }
 }
 @media (max-width: 767px) {
-  /* line 1254, ../sass/custom.scss */
+  /* line 1271, ../sass/custom.scss */
   .payment-form .donation_amount .big-amount li {
     width: 100%;
   }
 }
-/* line 1266, ../sass/custom.scss */
+/* line 1283, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount li h4 {
   font-family: 'Nexa';
   font-size: 15px;
   max-width: 156px;
   margin: 10px auto;
 }
-/* line 1272, ../sass/custom.scss */
+/* line 1289, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount li p {
   font-size: 34px;
   background-color: #ffc13c;
@@ -1534,32 +1550,32 @@ footer .footer_logo {
   margin-bottom: 20px;
   padding: 5px 20px;
 }
-/* line 1281, ../sass/custom.scss */
+/* line 1298, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount li p i {
   font-size: 30px;
 }
 @media (max-width: 767px) {
-  /* line 1272, ../sass/custom.scss */
+  /* line 1289, ../sass/custom.scss */
   .payment-form .donation_amount .big-amount li p {
     font-size: 24px;
   }
-  /* line 1287, ../sass/custom.scss */
+  /* line 1304, ../sass/custom.scss */
   .payment-form .donation_amount .big-amount li p i {
     font-size: 15px;
   }
 }
-/* line 1292, ../sass/custom.scss */
+/* line 1309, ../sass/custom.scss */
 .payment-form .donation_amount .big-amount li p:hover {
   background: #5e306f;
   color: #ffc13c;
 }
-/* line 1299, ../sass/custom.scss */
+/* line 1316, ../sass/custom.scss */
 .payment-form .donation_amount .small_ammount {
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-/* line 1303, ../sass/custom.scss */
+/* line 1320, ../sass/custom.scss */
 .payment-form .donation_amount .small_ammount li {
   width: auto;
   display: inline-block;
@@ -1574,22 +1590,22 @@ footer .footer_logo {
   margin-bottom: 20px;
 }
 @media (max-width: 991px) {
-  /* line 1303, ../sass/custom.scss */
+  /* line 1320, ../sass/custom.scss */
   .payment-form .donation_amount .small_ammount li {
     width: 31%;
   }
 }
-/* line 1319, ../sass/custom.scss */
+/* line 1336, ../sass/custom.scss */
 .payment-form .donation_amount .small_ammount li p {
   padding: 0;
   margin: 0;
 }
-/* line 1324, ../sass/custom.scss */
+/* line 1341, ../sass/custom.scss */
 .payment-form .donation_amount .small_ammount li:hover {
   background: #ffc13c;
   color: #5e306f;
 }
-/* line 1330, ../sass/custom.scss */
+/* line 1347, ../sass/custom.scss */
 .payment-form h5, .payment-form label {
   font-size: 23px;
   color: #5e306f;
@@ -1597,18 +1613,18 @@ footer .footer_logo {
   font-weight: normal;
 }
 @media (max-width: 991px) {
-  /* line 1330, ../sass/custom.scss */
+  /* line 1347, ../sass/custom.scss */
   .payment-form h5, .payment-form label {
     font-size: 17px;
   }
 }
 @media (max-width: 767px) {
-  /* line 1343, ../sass/custom.scss */
+  /* line 1360, ../sass/custom.scss */
   .payment-form h5 {
     margin-top: 20px;
   }
 }
-/* line 1349, ../sass/custom.scss */
+/* line 1366, ../sass/custom.scss */
 .payment-form .information .form-control {
   height: 47px;
   font-size: 23px;
@@ -1622,63 +1638,63 @@ footer .footer_logo {
   font-family: 'Nexa';
 }
 @media (max-width: 991px) {
-  /* line 1349, ../sass/custom.scss */
+  /* line 1366, ../sass/custom.scss */
   .payment-form .information .form-control {
     font-size: 17px;
     height: 47px;
   }
 }
-/* line 1366, ../sass/custom.scss */
+/* line 1383, ../sass/custom.scss */
 .payment-form .information textarea.extra {
   height: 83px;
   border-radius: 6px;
   margin-bottom: 0;
 }
 @media (max-width: 991px) {
-  /* line 1366, ../sass/custom.scss */
+  /* line 1383, ../sass/custom.scss */
   .payment-form .information textarea.extra {
     font-size: 17px;
   }
 }
-/* line 1374, ../sass/custom.scss */
+/* line 1391, ../sass/custom.scss */
 .payment-form .information textarea.comment {
   height: 120px;
   border-radius: 6px;
   margin-bottom: 0;
 }
-/* line 1379, ../sass/custom.scss */
+/* line 1396, ../sass/custom.scss */
 .payment-form .information .charty-text {
   margin-top: -50px;
 }
-/* line 1382, ../sass/custom.scss */
+/* line 1399, ../sass/custom.scss */
 .payment-form .information .mar-top {
   margin-top: 50px;
 }
-/* line 1385, ../sass/custom.scss */
+/* line 1402, ../sass/custom.scss */
 .payment-form .information .mgt-20 {
   margin-top: -46px;
 }
 @media (max-width: 767px) {
-  /* line 1389, ../sass/custom.scss */
+  /* line 1406, ../sass/custom.scss */
   .payment-form .information .charty-text {
     margin-top: 0px;
   }
-  /* line 1392, ../sass/custom.scss */
+  /* line 1409, ../sass/custom.scss */
   .payment-form .information .mar-top {
     margin-top: 0px;
   }
-  /* line 1395, ../sass/custom.scss */
+  /* line 1412, ../sass/custom.scss */
   .payment-form .information .mgt-20 {
     margin-top: 0px;
   }
 }
-/* line 1399, ../sass/custom.scss */
+/* line 1416, ../sass/custom.scss */
 .payment-form .information .fileUpload {
   position: relative;
   overflow: hidden;
   margin: 10px;
 }
-/* line 1404, ../sass/custom.scss */
+/* line 1421, ../sass/custom.scss */
 .payment-form .information .fileUpload input.upload {
   position: absolute;
   top: 0;
@@ -1690,7 +1706,7 @@ footer .footer_logo {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 1415, ../sass/custom.scss */
+/* line 1432, ../sass/custom.scss */
 .payment-form .information .btn-primary.cutom {
   font-size: 19px;
   border-radius: 20px;
@@ -1701,13 +1717,13 @@ footer .footer_logo {
   width: 145px;
   font-family: 'Nexa-heavy';
 }
-/* line 1426, ../sass/custom.scss */
+/* line 1443, ../sass/custom.scss */
 .payment-form .information .btn-primary.cutom:hover {
   color: #5e306f;
   background: #ffc13c;
   border-color: #ffc13c;
 }
-/* line 1433, ../sass/custom.scss */
+/* line 1450, ../sass/custom.scss */
 .payment-form .payment-method h3 {
   font-size: 33px;
   margin: 80px 0 40px 0;
@@ -1718,18 +1734,18 @@ footer .footer_logo {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1433, ../sass/custom.scss */
+  /* line 1450, ../sass/custom.scss */
   .payment-form .payment-method h3 {
     font-size: 25px;
   }
 }
-/* line 1446, ../sass/custom.scss */
+/* line 1463, ../sass/custom.scss */
 .payment-form .payment-method .methods_pay {
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-/* line 1450, ../sass/custom.scss */
+/* line 1467, ../sass/custom.scss */
 .payment-form .payment-method .methods_pay li {
   width: 31%;
   display: inline-block;
@@ -1738,23 +1754,23 @@ footer .footer_logo {
   background: url(../images/bor-verti.png) no-repeat right center;
 }
 @media (max-width: 767px) {
-  /* line 1450, ../sass/custom.scss */
+  /* line 1467, ../sass/custom.scss */
   .payment-form .payment-method .methods_pay li {
     width: 100%;
     background: none;
   }
 }
 @media (max-width: 991px) {
-  /* line 1461, ../sass/custom.scss */
+  /* line 1478, ../sass/custom.scss */
   .payment-form .payment-method .methods_pay li img {
     width: 150px;
   }
 }
-/* line 1467, ../sass/custom.scss */
+/* line 1484, ../sass/custom.scss */
 .payment-form .payment-method .methods_pay li:last-child {
   background-image: none;
 }
-/* line 1472, ../sass/custom.scss */
+/* line 1489, ../sass/custom.scss */
 .payment-form .submit {
   font-size: 32px;
   font-family: 'Nexa-heavy';
@@ -1765,19 +1781,19 @@ footer .footer_logo {
   margin: 40px 0;
 }
 @media (max-width: 767px) {
-  /* line 1472, ../sass/custom.scss */
+  /* line 1489, ../sass/custom.scss */
   .payment-form .submit {
     font-size: 20px;
   }
 }
-/* line 1487, ../sass/custom.scss */
+/* line 1504, ../sass/custom.scss */
 .payment-form .submit:hover {
   color: #5e306f;
   background: #ffc13c;
 }
 
 /*------------------campaign----------------*/
-/* line 1493, ../sass/custom.scss */
+/* line 1510, ../sass/custom.scss */
 .campaign-banner {
   background: url(../images/about-banner.jpg) no-repeat center;
   background-size: cover;
@@ -1785,12 +1801,12 @@ footer .footer_logo {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1493, ../sass/custom.scss */
+  /* line 1510, ../sass/custom.scss */
   .campaign-banner {
     margin-top: 90px;
   }
 }
-/* line 1501, ../sass/custom.scss */
+/* line 1518, ../sass/custom.scss */
 .campaign-banner h1 {
   font-size: 36px;
   color: #5e306f;
@@ -1799,7 +1815,7 @@ footer .footer_logo {
   letter-spacing: 1px;
 }
 
-/* line 1510, ../sass/custom.scss */
+/* line 1527, ../sass/custom.scss */
 .campaign h2 {
   text-transform: uppercase;
   font-size: 27px;
@@ -1810,19 +1826,19 @@ footer .footer_logo {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1510, ../sass/custom.scss */
+  /* line 1527, ../sass/custom.scss */
   .campaign h2 {
     font-size: 22px;
   }
 }
-/* line 1525, ../sass/custom.scss */
+/* line 1542, ../sass/custom.scss */
 .campaign .user_profile {
   margin: 15px 0 50px;
   float: left;
   width: 100%;
   text-align: center;
 }
-/* line 1530, ../sass/custom.scss */
+/* line 1547, ../sass/custom.scss */
 .campaign .user_profile .user-img {
   width: 134px;
   height: 134px;
@@ -1830,35 +1846,35 @@ footer .footer_logo {
   margin: 0px auto;
   overflow: hidden;
 }
-/* line 1537, ../sass/custom.scss */
+/* line 1554, ../sass/custom.scss */
 .campaign .user_profile .user-img img {
   max-width: 100%;
   display: block;
 }
-/* line 1542, ../sass/custom.scss */
+/* line 1559, ../sass/custom.scss */
 .campaign .user_profile .uder-details {
   max-width: 200px;
   margin: 0 auto 35px;
 }
-/* line 1545, ../sass/custom.scss */
+/* line 1562, ../sass/custom.scss */
 .campaign .user_profile .uder-details h3 {
   font-size: 14px;
   font-family: 'Nexa-heavy';
   color: #5e306f;
   margin: 15px 0 5px;
 }
-/* line 1552, ../sass/custom.scss */
+/* line 1569, ../sass/custom.scss */
 .campaign .user_profile .uder-details h4 {
   display: inline-block;
-  padding: 2px 16px;
+  padding: 2px 10px;
   border-radius: 40px;
   background-color: #ffc13c;
   color: #5e306f;
   font-family: 'Nexa-heavy';
-  font-size: 18px;
+  font-size: 15px;
   margin: 2px 0;
 }
-/* line 1562, ../sass/custom.scss */
+/* line 1579, ../sass/custom.scss */
 .campaign .user_profile .uder-details .progress {
   max-width: 570px;
   margin: 0 auto;
@@ -1879,7 +1895,7 @@ footer .footer_logo {
   background-size: 10px 10px;
 }
 @media screen and (max-width: 767px) {
-  /* line 1562, ../sass/custom.scss */
+  /* line 1579, ../sass/custom.scss */
   .campaign .user_profile .uder-details .progress {
     max-width: 80%;
     margin: 0 auto;
@@ -1887,7 +1903,7 @@ footer .footer_logo {
     border: 1px solid #9c50b7;
   }
 }
-/* line 1589, ../sass/custom.scss */
+/* line 1606, ../sass/custom.scss */
 .campaign .user_profile .uder-details .progress-bar {
   background-color: #9d49bc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
@@ -1899,34 +1915,34 @@ footer .footer_logo {
   animation: progress-bar-stripes 2s linear infinite;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 1602, ../sass/custom.scss */
+/* line 1619, ../sass/custom.scss */
 .campaign .user_profile .uder-details .progress-bar-striped, .campaign .user_profile .uder-details .progress-striped .progress-bar {
   -webkit-background-size: 10px 10px;
   background-size: 10px 10px;
 }
-/* line 1606, ../sass/custom.scss */
+/* line 1623, ../sass/custom.scss */
 .campaign .user_profile .uder-details p {
   font-size: 12px;
   color: #5e306f;
   font-family: 'Nexa';
 }
-/* line 1610, ../sass/custom.scss */
+/* line 1627, ../sass/custom.scss */
 .campaign .user_profile .uder-details p span {
   font-family: 'Nexa-heavy';
 }
 
-/* line 1617, ../sass/custom.scss */
+/* line 1634, ../sass/custom.scss */
 .donations-campaign {
   margin: 40px 0 20px 0;
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 1617, ../sass/custom.scss */
+  /* line 1634, ../sass/custom.scss */
   .donations-campaign {
     margin: 30px auto;
   }
 }
-/* line 1625, ../sass/custom.scss */
+/* line 1642, ../sass/custom.scss */
 .donations-campaign h3 {
   text-transform: uppercase;
   font-size: 27px;
@@ -1936,17 +1952,17 @@ footer .footer_logo {
   letter-spacing: 1px;
 }
 @media (max-width: 767px) {
-  /* line 1625, ../sass/custom.scss */
+  /* line 1642, ../sass/custom.scss */
   .donations-campaign h3 {
     font-size: 22px;
   }
 }
-/* line 1637, ../sass/custom.scss */
+/* line 1654, ../sass/custom.scss */
 .donations-campaign .row-custom {
   margin-right: -10px;
   margin-left: -10px;
 }
-/* line 1641, ../sass/custom.scss */
+/* line 1658, ../sass/custom.scss */
 .donations-campaign .content-donation {
   width: 100%;
   padding-left: 10px;
@@ -1954,7 +1970,7 @@ footer .footer_logo {
   float: left;
   margin-bottom: 20px;
 }
-/* line 1649, ../sass/custom.scss */
+/* line 1666, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details {
   background-color: #f6f6f6;
   border-radius: 10px;
@@ -1963,7 +1979,7 @@ footer .footer_logo {
   float: left;
   min-height: 250px;
 }
-/* line 1657, ../sass/custom.scss */
+/* line 1674, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details {
   width: 50%;
   float: left;
@@ -1971,56 +1987,65 @@ footer .footer_logo {
   text-align: center;
   min-height: 127px;
 }
-/* line 1663, ../sass/custom.scss */
+/* line 1680, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h3 {
   font-size: 17px;
   font-family: 'Nexa-heavy';
   color: #5e306f;
   margin: 0;
   text-transform: initial;
+  height: 39px;
+  overflow: hidden;
 }
-/* line 1671, ../sass/custom.scss */
+/* line 1690, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h5 {
   font-size: 14px;
   font-family: 'Nexa';
   color: #5e306f;
   margin: 5px 0 0;
 }
-/* line 1677, ../sass/custom.scss */
+/* line 1696, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details h4 {
   display: inline-block;
-  padding: 1px 10px;
+  padding: 1px 7px;
   border-radius: 40px;
   background-color: #ffc13c;
   color: #5e306f;
   font-family: 'Nexa-heavy';
-  font-size: 18px;
+  font-size: 15px;
 }
-/* line 1687, ../sass/custom.scss */
+/* line 1706, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details p {
   font-size: 14px;
   color: #5e306f;
   font-family: 'Nexa';
   margin: 0;
 }
-/* line 1693, ../sass/custom.scss */
+/* line 1712, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .uder-details span {
   font-family: 'Nexa-heavy';
   font-size: 14px;
   color: #5e306f;
   display: inline-block;
 }
-/* line 1700, ../sass/custom.scss */
+/* line 1719, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .media-image {
   width: 50%;
   float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
 }
-/* line 1704, ../sass/custom.scss */
+/* line 1727, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .media-image img {
   display: block;
-  max-width: 100px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100px;
 }
-/* line 1709, ../sass/custom.scss */
+/* line 1735, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details label {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -2029,8 +2054,8 @@ footer .footer_logo {
   text-align: left;
   margin: 10px 0 0 4px;
 }
-/* line 1717, ../sass/custom.scss */
-.donations-campaign .content-donation .inner-details textarea {
+/* line 1743, ../sass/custom.scss */
+.donations-campaign .content-donation .inner-details textarea, .donations-campaign .content-donation .inner-details .comment {
   height: 60px;
   width: 100%;
   border: none;
@@ -2039,8 +2064,10 @@ footer .footer_logo {
   font-size: 10px;
   font-family: 'Nexa';
   padding: 5px;
+  max-height: 70px;
+  overflow-y: scroll;
 }
-/* line 1727, ../sass/custom.scss */
+/* line 1755, ../sass/custom.scss */
 .donations-campaign .content-donation .inner-details .text-italic {
   font-size: 10px;
   font-family: 'Nexa-italic';
@@ -2051,13 +2078,13 @@ footer .footer_logo {
 }
 
 /*----------------donator_list----------------*/
-/* line 1740, ../sass/custom.scss */
+/* line 1768, ../sass/custom.scss */
 .donator_list {
   text-align: center;
   font-family: 'Nexa-heavy';
   margin: 50px 0;
 }
-/* line 1745, ../sass/custom.scss */
+/* line 1773, ../sass/custom.scss */
 .donator_list .donator_price h3 {
   background-color: #5e306f;
   color: #fff;
@@ -2065,11 +2092,11 @@ footer .footer_logo {
   border-radius: 50px;
   font-size: 30px;
 }
-/* line 1752, ../sass/custom.scss */
+/* line 1780, ../sass/custom.scss */
 .donator_list .donator_price h3:hover {
   color: #ffc13c;
 }
-/* line 1758, ../sass/custom.scss */
+/* line 1786, ../sass/custom.scss */
 .donator_list .donator_name p {
   background-color: #ffc13c;
   color: #5e306f;
@@ -2078,62 +2105,62 @@ footer .footer_logo {
   font-size: 18px;
   margin-bottom: 5px;
 }
-/* line 1766, ../sass/custom.scss */
+/* line 1794, ../sass/custom.scss */
 .donator_list .donator_name p:hover {
   background-color: #5e306f;
   color: #ffc13c;
 }
-/* line 1771, ../sass/custom.scss */
+/* line 1799, ../sass/custom.scss */
 .donator_list a:hover {
   text-decoration: none;
 }
 
 /*-----------------thnk-you-------------------*/
-/* line 1776, ../sass/custom.scss */
+/* line 1804, ../sass/custom.scss */
 .thnk-you {
   margin: 100px 0 150px;
   text-align: center;
   color: #5e306f;
   font-family: 'Nexa';
 }
-/* line 1782, ../sass/custom.scss */
+/* line 1810, ../sass/custom.scss */
 .thnk-you h3 {
   font-size: 30px;
   margin-bottom: 50px;
 }
-/* line 1786, ../sass/custom.scss */
+/* line 1814, ../sass/custom.scss */
 .thnk-you h4 {
   font-size: 30px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 1791, ../sass/custom.scss */
+/* line 1819, ../sass/custom.scss */
 .thnk-you p {
   font-size: 18px;
 }
 @media (max-width: 767px) {
-  /* line 1776, ../sass/custom.scss */
+  /* line 1804, ../sass/custom.scss */
   .thnk-you {
     margin: 70px 0 150px;
   }
-  /* line 1797, ../sass/custom.scss */
+  /* line 1825, ../sass/custom.scss */
   .thnk-you h3 {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  /* line 1801, ../sass/custom.scss */
+  /* line 1829, ../sass/custom.scss */
   .thnk-you h4 {
     font-size: 20px;
     margin-bottom: 5px;
     text-transform: uppercase;
   }
-  /* line 1806, ../sass/custom.scss */
+  /* line 1834, ../sass/custom.scss */
   .thnk-you p {
     font-size: 13px;
   }
 }
 
-/* line 1811, ../sass/custom.scss */
+/* line 1839, ../sass/custom.scss */
 .owl-prev {
   margin-top: 10px;
   position: absolute;
@@ -2146,13 +2173,13 @@ footer .footer_logo {
   width: 50px;
 }
 @media (max-width: 767px) {
-  /* line 1811, ../sass/custom.scss */
+  /* line 1839, ../sass/custom.scss */
   .owl-prev {
     left: 0;
   }
 }
 
-/* line 1825, ../sass/custom.scss */
+/* line 1853, ../sass/custom.scss */
 .owl-next {
   margin-top: 10px;
   position: absolute;
@@ -2165,7 +2192,7 @@ footer .footer_logo {
   width: 50px;
 }
 @media (max-width: 767px) {
-  /* line 1825, ../sass/custom.scss */
+  /* line 1853, ../sass/custom.scss */
   .owl-next {
     right: 0;
   }
